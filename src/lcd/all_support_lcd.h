@@ -7,3 +7,4 @@
 #include "GC9A01.h"
 #include "ST7262.h"
 #include "ST7789.h"
+#include "ST7701.h"

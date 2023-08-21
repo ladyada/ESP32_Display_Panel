@@ -14,7 +14,7 @@
 /**
  * LCD IC name.
  */
-#define ESP_PANEL_LCD_NAME          GC9503
+#define ESP_PANEL_LCD_NAME          ST7701
 
 /* LCD resolution in pixels */
 #define ESP_PANEL_LCD_H_RES         (480)
@@ -111,7 +111,7 @@
 /**
  * LCD Touch IC name.
  */
-#define ESP_PANEL_LCD_TOUCH_NAME            FT5x06
+#define ESP_PANEL_LCD_TOUCH_NAME            CST816S
 
 /* LCD Touch resolution in pixels */
 #define ESP_PANEL_LCD_TOUCH_H_RES           (ESP_PANEL_LCD_H_RES)
