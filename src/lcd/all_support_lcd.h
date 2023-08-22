@@ -8,3 +8,4 @@
 #include "ST7262.h"
 #include "ST7789.h"
 #include "ST7701.h"
+#include "NV3052CGRB.h"

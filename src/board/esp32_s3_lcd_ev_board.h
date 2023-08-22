@@ -14,11 +14,11 @@
 /**
  * LCD IC name.
  */
-#define ESP_PANEL_LCD_NAME          ST7701
+#define ESP_PANEL_LCD_NAME          NV3052CGRB
 
 /* LCD resolution in pixels */
-#define ESP_PANEL_LCD_H_RES         (480)
-#define ESP_PANEL_LCD_V_RES         (480)
+#define ESP_PANEL_LCD_H_RES         (720)
+#define ESP_PANEL_LCD_V_RES         (720)
 
 /* LCD Bus Settings */
 /**
@@ -39,13 +39,13 @@
  *
  * Please refer to https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/api-reference/peripherals/lcd.html for details.
  */
-#define ESP_PANEL_LCD_RGB_CLK_HZ            (16 * 1000 * 1000)
-#define ESP_PANEL_LCD_RGB_HPW               (10)
-#define ESP_PANEL_LCD_RGB_HBP               (10)
-#define ESP_PANEL_LCD_RGB_HFP               (20)
-#define ESP_PANEL_LCD_RGB_VPW               (10)
-#define ESP_PANEL_LCD_RGB_VBP               (10)
-#define ESP_PANEL_LCD_RGB_VFP               (10)
+#define ESP_PANEL_LCD_RGB_CLK_HZ            (35 * 1000 * 1000)
+#define ESP_PANEL_LCD_RGB_HPW               (2)
+#define ESP_PANEL_LCD_RGB_HBP               (44)
+#define ESP_PANEL_LCD_RGB_HFP               (46)
+#define ESP_PANEL_LCD_RGB_VPW               (5)
+#define ESP_PANEL_LCD_RGB_VBP               (16)
+#define ESP_PANEL_LCD_RGB_VFP               (50)
 #define ESP_PANEL_LCD_RGB_PCLK_ACTIVE_NEG   (0)
 #define ESP_PANEL_LCD_RGB_DATA_WIDTH        (16)
 #define ESP_PANEL_LCD_RGB_IO_HSYNC          (46)
